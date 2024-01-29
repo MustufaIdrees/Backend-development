@@ -22,3 +22,9 @@ switch(new Date().getDay()){
         day = "Saturday";
         break;
 }
+
+function my_function(x, y){
+    return(x * y);
+}
+let result = my_function(50, 10);
+document.getElementById('demo').innerHTML = result;
